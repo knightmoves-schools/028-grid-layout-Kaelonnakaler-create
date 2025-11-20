@@ -4,15 +4,13 @@
     <title>Grid</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        .item1 { grid-area: header; }
+        .first-item { grid-area: header; }
 
-        .item2 { grid-area: left; }
+        .second-item { grid-area: left; }
 
-        .item3 { grid-area: main; }
+        .third-item { grid-area: main; }
 
-        .item4 { grid-area: left; }
 
-        .item5 { grid-area: grid; }
 
         grid-container {
            display: grid;
@@ -20,7 +18,8 @@
                'header header header header header header'
                'header main main main right left'
                'menu footer footer footer footer';
-           gap: 10px
+           gap: 10px;
+        }
 
 
 
