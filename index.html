@@ -10,15 +10,15 @@
 
         .item3 { grid-area: main; }
 
-        .item4 { grid-area: right; }
+        .item4 { grid-area: left; }
 
-        .item5 { grid-area: footer; }
+        .item5 { grid-area: grid; }
 
         grid-container {
            display: grid;
            grid-template-areas:
                'header header header header header header'
-               'menu main main main right right'
+               'header main main main right left'
                'menu footer footer footer footer';
            gap: 10px
 
