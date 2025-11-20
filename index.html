@@ -6,17 +6,17 @@
     <style>
         .first-item { grid-area: header; }
 
-        .second-item { grid-area: left; }
+        .second-item { grid-area: leftnav; }
 
         .third-item { grid-area: main; }
 
 
 
-        grid-container {
+        .grid-container {
            display: grid;
            grid-template-areas:
                'header header header header header header'
-               'header main main main right left'
+               'main main main main main left'
                'menu footer footer footer footer';
            gap: 10px;
         }
